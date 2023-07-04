@@ -1,31 +1,37 @@
 # Rock, Paper, Scissors Game
+This project is a simple and interactive implementation of the popular game Rock, Paper, Scissors. I developed this as part of my learning journey to understand the fundamentals of HTML, CSS, and JavaScript.
 
-This is a simple and interactive Rock, Paper, Scissors game implemented using HTML, CSS, and JavaScript. It also features a score tracking system and auto-play mode.
+## Objective
+The objective of this project was to create an interactive game that can be played in a browser. The project also includes features such as a score tracking system, auto-play mode, and keyboard controls to deepen my understanding of how to create interactive experiences using web technologies.
 
-## Game Features
+## Technologies
+- HTML5
+- CSS3
+- JavaScript
 
-1. __Play against the computer__: The player can make a move by clicking on the 'rock', 'paper', or 'scissors' button.
+## Strategy
+Here are the key strategies I employed:
 
-2. __Score tracking__: The game keeps track of the player's wins, losses, and ties. The score is stored locally in the user's browser and persists even after refreshing the page.
+### HTML
+- **Semantic HTML:** I used appropriate HTML tags for better structure and SEO optimization.
+- **Event Handling:** Incorporated JavaScript events directly into HTML tags for user interaction.
+- **Local Storage:** Utilized HTML local storage to maintain the score across different sessions.
 
-3. __Auto-play mode__: The player can enable auto-play mode. In this mode, the game automatically makes a random move for the player every second.
+### CSS
+- **Animations:** CSS animations were used to provide visual feedback for losses.
+- **Flexbox:** I utilized the CSS Flexbox layout for aligning the game elements.
+- **CSS Variables:** Utilized CSS variables to maintain consistency across styles.
 
-4. __Keyboard inputs__: The player can use keyboard inputs to make a move. The keys are 'r' for rock, 'p' for paper, and 's' for scissors.
+### JavaScript
+- **Event Listeners:** Created event listeners for user interactions (clicks and keydown events).
+- **Game Logic:** Implemented the game logic using JavaScript conditional statements.
 
-5. __Animations__: The game has visual animations for button presses.
+## Lessons Learned
+This project deepened my understanding of HTML, CSS, and JavaScript, and gave me hands-on experience in creating a browser-based game. I learned how to make use of JavaScript event listeners, timers, and local storage, as well as how to animate elements with CSS.
 
-6. __Reset Score__: The player can reset the score at any time by clicking the 'Reset Score' button.
+## How to View
+You can view the project at the following URL; https://bahmed3.github.io/rps/RPS.html
 
-## Project Structure
-
-1. `index.html`: The HTML file that contains the structure and content of the web page.
-
-2. `RPS.css`: The CSS file that contains the styling for the web page.
-
-3. `RPS.js`: The JavaScript file that contains the game logic, event listeners and animations.
-
-## How to Run
-
-1. Clone the repository or download the project files.
-2. Open `index.html` in a web browser to start playing the game.
+## Future Work
+I plan on improving my skills by creating more side projects to understand the correlation between JavaScript, CSS, and HTML better. I am also planning to learn and integrate more advanced JavaScript concepts and libraries, such as React, into my future projects.
 
